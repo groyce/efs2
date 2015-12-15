@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+  <html>  
+    
+  <head>   
+  </head>   
+  <body>   
+    
+  <div align=\"center\">
+<img src="assets\images\eagle.jpg" class="img-responsive" alt="">
+</div>  
+
+  <h2><center><FONT COLOR=\"#0080FF\">EAGLE FINANCIAL SERVICES</FONT></center></h2>  
+  <h3><center><FONT COLOR=\"#08088A\">Your Midwest Financial Services Partner</FONT></center></h3>  
+  <h4><center><FONT COLOR=\"#886A08\">Your Financial Advisor Portfolio Planner on Ruby</FONT></center></h4>  
+  <br>  
+  <br>   
+  <br>   
+  <br>  
+  <h1><center><FONT COLOR=\"8A0829\">Portfolio Planning Options</FONT></h1>  
+  <center><select name=\"menu1\" id=\"menu1\">  
+  <option value=\"\">Select an option</option>  
+  <option value=\"http://localhost:3000/users/">Users</option>  
+  <option value=\"http://localhost:3000">Add a new customer</option>  
+  <option value=\"http:localhost:3000/users/">Check Stocks</option>  
+  <option value=\"http:localhost:3000">Check Investments</option>  
+     
+  </select>   
+  <script type=\"text/javascript\">   
+   var urlmenu = document.getElementById( 'menu1' );   
+   urlmenu.onchange = function() {   
+        window.open( this.options[ this.selectedIndex ].value );   
+   };   
+  </script>   
+     
+  </body>   
+  </html>   

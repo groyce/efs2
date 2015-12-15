@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyText
+  description: MyText
+  acquiredvalue: 1
+  acquireddate: 1
+  recentvalue: 1
+  recentdate: 2015-12-04 16:57:36
+  created: 2015-12-04 16:57:36
+  modified: 2015-12-04 16:57:36
+
+two:
+  category: MyText
+  description: MyText
+  acquiredvalue: 1
+  acquireddate: 1
+  recentvalue: 1
+  recentdate: 2015-12-04 16:57:36
+  created: 2015-12-04 16:57:36
+  modified: 2015-12-04 16:57:36
